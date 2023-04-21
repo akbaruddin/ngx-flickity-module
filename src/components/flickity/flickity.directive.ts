@@ -36,7 +36,7 @@ export class FlickityDirective implements AfterContentInit, OnDestroy {
       return;
     }
 
-    const Flickity = require('flickity');
+    const Flickity = require('flickity-module');
 
     let config = this.config;
 
